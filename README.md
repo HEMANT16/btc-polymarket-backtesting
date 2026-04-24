@@ -17,6 +17,8 @@ Autonomous BTC trading bots and backtesting suite for [Polymarket](https://polym
 
 ### The "Sniper" Philosophy
 
+[[[[YOU CAN CHANGE YOU'S OWN STRETERGY OR TP SL AND ENTRY]]]]
+
 Most trading bots fail because they enter too early and get caught in market noise. The 5-minute bot solves this with a **120-second Late-Window Buffer**:
 
 - **Minutes 0:00 – 3:00**: The bot sleeps. No trades.
