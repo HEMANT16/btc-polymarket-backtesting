@@ -1,0 +1,31 @@
+{
+  "name": "btc-polymarket-backtesting",
+  "version": "1.0.0",
+  "description": "Autonomous BTC trading bots and backtesting suite for Polymarket prediction markets.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "bot:5m": "node btc_scalper_5m.js",
+    "bot:15m": "node btc_scalper_15m.js",
+    "bot:1h": "node btc_scalper_1h.js",
+    "test": "node backtest_simulation.js"
+  },
+  "keywords": [
+    "polymarket",
+    "bitcoin",
+    "trading-bot",
+    "backtesting",
+    "crypto",
+    "prediction-markets",
+    "sniper-bot",
+    "btc"
+  ],
+  "author": "HEMANT16",
+  "license": "MIT",
+  "dependencies": {
+    "@polymarket/clob-client": "^1.0.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1"
+  }
+}
